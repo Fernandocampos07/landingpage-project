@@ -1,1 +1,26 @@
 @charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav-bar{
+    background-color: black;
+    width: 100vw;
+}
+
+#main-list{
+    list-style-type: none;
+    display: flex;
+    
+}
+#main-list > li{
+    padding: 10px;
+}
+#main-list a{
+    text-decoration: none;
+    color: white;
+}
+
+
