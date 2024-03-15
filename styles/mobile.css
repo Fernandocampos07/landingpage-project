@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;   
+}
+body{
+    background-color: black;
+    background-image: url(../images/pexels-anush-gorak-1431283.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/*NAV-BAR*/
+.nav-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+    height: 10vh;
+    padding: 10px;
+}
+.title{
+    display: none;
+}
+.main-list > ul{
+    font-size: 0.8em;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    font-size: 1.4rem;
+    padding: 20px;
+}
