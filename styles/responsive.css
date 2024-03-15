@@ -6,24 +6,25 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+body{
+    background-color: rebeccapurple;
+}
 #nav-bar{
     background-color: black;
     display: flex;
-    justify-content: space-between;
-    padding: 10px 5px 10px 20px;
+    justify-content: space-around;
+    padding: 5px 5px 5px 20px;
+    font-size: 0.8em;
    
 }
 h2{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: normal;
+    color: #1b9be0;
 }
 #main-list{
     list-style-type: none;
     display: flex;
     align-items: center;
-    margin-right: 10px;
-   
+    margin-right: 10px; 
 }
 #main-list > li{
     padding: 10px;
@@ -40,19 +41,48 @@ h2{
 }
 
 #buttom{
-    background-color: rgba(0, 0, 255, 0.527);
-    padding: 8px;
+   
+    align-self: center;
+    background-color: #13293d;
+    height: 30px;
+    border: none;
     border-radius: 10px;
+    padding: 8px;
     font-weight: bold;
     margin-left: 10px;
 }
+#buttom-link{
+    text-decoration: none;
+}
 #buttom:hover{
-    background-color: blue;
-    transition: .5s;
+    background-color: #1b9be0;
+    transition:.5s;
 }
 #buttom > a:hover{
     text-decoration: none;
 }
-
-
-
+main{
+    position: relative;
+    display: flex;
+    background-image: url(../images/pexels-pixabay-416778.jpg);
+    height: 91vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+#content{
+    position: absolute;
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    text-align: justify;
+    top: 20vh;
+    left: 30px;
+}
+#content h2{
+    margin-bottom: 10px;
+}
+#content p{
+    width: 30vw;
+}
