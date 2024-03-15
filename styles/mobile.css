@@ -28,12 +28,14 @@ body{
     height: 10vh;
     padding: 10px;
 }
+/*REMOVI O TÍTULO PARA AJUDAR NA RESPONSIVIDADE*/
 .title{
     display: none;
 }
 .main-list > ul{
     font-size: 0.8em;
 }
+/*PRINCIPAL*/
 main{
     display: flex;
     flex-direction: row;
@@ -46,3 +48,4 @@ main{
     font-size: 1.4rem;
     padding: 20px;
 }
+/*TODAS AS ESTILIZAÇÕES QUE NÃO ESTAM NESSA VERSÃO MOBILE JÁ ESTÃO NA VERSÃO DESKTOP E EU NÃO PRECISEI REFAZER TODO ESTILO DA VERSÃO MOBILE*/
